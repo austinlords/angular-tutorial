@@ -1,0 +1,4 @@
+# Ignore these!
+build 
+coverage 
+node_modules
