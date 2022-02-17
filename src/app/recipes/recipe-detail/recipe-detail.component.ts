@@ -10,7 +10,7 @@ import { Recipe } from 'src/app/app.types';
 export class RecipeDetailComponent implements OnInit {
   constructor() {}
 
-  @Input() recipe: Recipe | null;
+  @Input() recipe: Recipe;
 
   ngOnInit(): void {}
 }
